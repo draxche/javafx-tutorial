@@ -13,6 +13,7 @@ public class DialogBox extends HBox {
         text = new Label(s);
         displayPicture = new ImageView(i);
 
+        // Styling the dialog box
         text.setWrapText(true);
         displayPicture.setFitWidth(100.0);
         displayPicture.setFitHeight(100.0);
